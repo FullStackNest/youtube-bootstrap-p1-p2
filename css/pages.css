@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --theme-curve-radius: 20px;
+}
+
+.form-container {
+    border: 2px solid #55a4d9;
+
+    /* padding leaves space from inner side */
+    padding: 1rem;
+    border-radius: var(--theme-curve-radius);
+
+    /* margin leaves space from outer side */
+}
+
+.contact-banner-image {
+    width: 450px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: var(--theme-curve-radius);
+}
+
+@media screen and (max-width: 600px) {
+    .contact-banner-image {
+        width: 95dvw;
+        padding-top: 1rem;
+    }
+}

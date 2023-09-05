@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Website</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="navHeader"></header>
+    <!-- header ends -->
+
+    <!-- <main class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 bg-secondary">
+                    Column 1
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 bg-info">
+                    Column 2
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-3 bg-danger">
+                    Column 3
+                </div>
+                <div class="col-12  col-md-8 col-lg-4 col-xl-3 bg-dark text-light">
+                    Column 4
+                </div>
+            </div>
+        </div>
+    </main> -->
+    <!-- ARIA: Accessibility Rich Internet Applications -->
+    <main class="main my-4">
+        <div class="container">
+            <div class="row">
+                <!-- accordion start -->
+                <section class="col-12 col-md-6 col-lg-5 col-xl-6 order-2 order-lg-1">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Mumbai Darshan
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse
+                                    plugin adds the appropriate classes that we use to style each element. These classes
+                                    control the overall
+                                    appearance, as well as the showing and hiding via CSS transitions. You can modify
+                                    any of this with
+                                    custom CSS or overriding our default variables. It's also worth noting that just
+                                    about any HTML can go
+                                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item end -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Odisha Tour Package
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse
+                                    plugin adds the appropriate classes that we use to style each element. These classes
+                                    control the overall
+                                    appearance, as well as the showing and hiding via CSS transitions. You can modify
+                                    any of this with
+                                    custom CSS or overriding our default variables. It's also worth noting that just
+                                    about any HTML can go
+                                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item end -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingDelhi">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseDelhi" aria-expanded="false" aria-controls="collapseDelhi">
+                                    Delhi Darhsan
+                                </button>
+                            </h2>
+                            <div id="collapseDelhi" class="accordion-collapse collapse" aria-labelledby="headingDelhi"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse
+                                    plugin adds the appropriate classes that we use to style each element. These classes
+                                    control the overall
+                                    appearance, as well as the showing and hiding via CSS transitions. You can modify
+                                    any of this with
+                                    custom CSS or overriding our default variables. It's also worth noting that just
+                                    about any HTML can go
+                                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Gujarat Tour Package
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse
+                                    plugin adds the appropriate classes that we use to style each element. These classes
+                                    control the overall
+                                    appearance, as well as the showing and hiding via CSS transitions. You can modify
+                                    any of this with
+                                    custom CSS or overriding our default variables. It's also worth noting that just
+                                    about any HTML can go
+                                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- image slider start  -->
+                <section class="col-12 col-md-6 col-lg-7 col-xl-6 order-1 order-lg-2">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://images.pexels.com/photos/18129270/pexels-photo-18129270/free-photo-of-neushwanstein-castle-on-a-cloudy-day.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                                    class="d-block w-100" alt="First Image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://images.pexels.com/photos/12429032/pexels-photo-12429032.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                                    class="d-block w-100" alt="Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://images.pexels.com/photos/16401141/pexels-photo-16401141/free-photo-of-art-summer-pattern-texture.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                                    class="d-block w-100" alt="Image 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </section>
+
+                <!-- cards -->
+                <section class="col-12 col-md-6 col-lg-12 order-3 my-4 d-flex flex-wrap justify-content-between">
+                    <div class="card card-container">
+                        <img src="https://images.pexels.com/photos/15517974/pexels-photo-15517974/free-photo-of-a-stork-billed-kingfisher-on-a-branch.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                            class="card-img-top" alt="Card 1 image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <!-- card end -->
+                    <div class="card card-container">
+                        <img src="https://images.pexels.com/photos/15517974/pexels-photo-15517974/free-photo-of-a-stork-billed-kingfisher-on-a-branch.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                            class="card-img-top" alt="Card 1 image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <!-- card end -->
+                    <div class="card card-container">
+                        <img src="https://images.pexels.com/photos/15517974/pexels-photo-15517974/free-photo-of-a-stork-billed-kingfisher-on-a-branch.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                            class="card-img-top" alt="Card 1 image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <!-- card end -->
+                    <div class="card card-container">
+                        <img src="https://images.pexels.com/photos/15517974/pexels-photo-15517974/free-photo-of-a-stork-billed-kingfisher-on-a-branch.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                            class="card-img-top" alt="Card 1 image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <!-- card end -->
+                    <div class="card card-container">
+                        <img src="https://images.pexels.com/photos/6037250/pexels-photo-6037250.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            class="card-img-top" alt="Card 1 image">
+                        <div class="card-body">
+                            <h5 class="card-title">Mumbai Darshan</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's
+                                content.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Modal Gallery</button>
+                        </div>
+                    </div>
+                    <!-- card end -->
+                    <div class="card card-container">
+                        <img src="https://images.pexels.com/photos/733148/pexels-photo-733148.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            class="card-img-top" alt="Card 1 image">
+                        <div class="card-body">
+                            <h5 class="card-title">Switzerland Highlights</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's
+                                content.</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                View Gallery
+                            </button>
+                        </div>
+                    </div>
+                    <!-- card end -->
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- offcanvas hidden code start -->
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Switzerland</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="d-flex flex-wrap gap-4">
+                <img src="https://images.pexels.com/photos/15517974/pexels-photo-15517974/free-photo-of-a-stork-billed-kingfisher-on-a-branch.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                    class="canvas-img" alt="Card 1 image">
+                <img src="https://images.pexels.com/photos/773471/pexels-photo-773471.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="canvas-img" alt="Card 2 image">
+                <img src="https://images.pexels.com/photos/922978/pexels-photo-922978.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="canvas-img" alt="Card 3 image">
+                <img src="https://images.pexels.com/photos/733148/pexels-photo-733148.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="canvas-img" alt="Card 4 image">
+            </div>
+        </div>
+    </div>
+    <!-- offcanvas end -->
+
+    <!-- modal's hidden code -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Mumbai Darshan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex flex-wrap gap-4">
+                        <img src="https://images.pexels.com/photos/15517974/pexels-photo-15517974/free-photo-of-a-stork-billed-kingfisher-on-a-branch.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                            class="canvas-img" alt="Card 1 image">
+                        <img src="https://images.pexels.com/photos/773471/pexels-photo-773471.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            class="canvas-img" alt="Card 2 image">
+                        <img src="https://images.pexels.com/photos/922978/pexels-photo-922978.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            class="canvas-img" alt="Card 3 image">
+                        <img src="https://images.pexels.com/photos/733148/pexels-photo-733148.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            class="canvas-img" alt="Card 4 image">
+                        <img src="https://images.pexels.com/photos/773471/pexels-photo-773471.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            class="canvas-img" alt="Card 2 image">
+                        <img src="https://images.pexels.com/photos/922978/pexels-photo-922978.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            class="canvas-img" alt="Card 3 image">
+                        <img src="https://images.pexels.com/photos/15517974/pexels-photo-15517974/free-photo-of-a-stork-billed-kingfisher-on-a-branch.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                            class="canvas-img" alt="Card 1 image">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- modal end -->
+
+    <footer class="footer bg-primary">
+
+    </footer>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script> -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
