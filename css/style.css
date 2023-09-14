@@ -23,7 +23,7 @@
 }
 
 .card-container {
-    width: 15rem;
+    width: 16.5rem;
 }
 
 .canvas-img {
@@ -40,6 +40,51 @@
     /* transition: all 0.5s ease-in-out; */
 }
 
+
+/* footer section */
+.footer {
+    min-height: 300px;
+    overflow-x: hidden;
+}
+
+.brand-image-footer {
+    width: 250px;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-rounded {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.footer-heading {
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+#footer-text-links a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+#footer-text-links a:hover {
+    text-decoration: underline !important;
+    color: white !important;
+}
+
+.divider {
+    border: 1px solid white;
+    width: 95vw;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
 @media screen and (max-width: 620px) {
     .card-container {
         width: 100vw;
@@ -53,10 +98,9 @@
     .offcanvas-top {
         height: 100% !important;
     }
-}
 
-
-/* footer section */
-.footer {
-    min-height: 300px;
+    .footer-heading {
+        font-weight: 500;
+        font-size: 1rem;
+    }
 }
