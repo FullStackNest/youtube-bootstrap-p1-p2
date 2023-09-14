@@ -55,4 +55,102 @@ const NAV = `
 
 const navHeader = document.getElementById('navHeader');
 
+
 navHeader.innerHTML = NAV;
+
+
+
+
+const FOOTER_HTML = `
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-center pt-4">
+            <img class="image-rounded" src="imgs/logo-icon.png" alt="">
+            <p class="text-light px-3 footer-heading">Travel Era | Your true holiday partner</p>
+            <button class="btn btn-outline-light">Book your vacation now!</button>
+        </div>
+        <div class="container-fluid my-4">
+            <div id="footer-text-links" class="row">
+                <div class="col-md-4 col-xl-3 d-flex align-items-center justify-content-center">
+                    <img class="brand-image-footer"
+                        src="https://images.pexels.com/photos/5269625/pexels-photo-5269625.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="Brand Promotion" />
+                </div>
+                <div class="col-6 col-md-3 col-xl-2 d-flex flex-column">
+                    <a href="#">About Us</a>
+                    <a href="#">Teams & Careers</a>
+                    <a href="#">Blogs</a>
+                    <a href="#">Support</a>
+                </div>
+                <div class="col-6 col-md-3 col-xl-2 d-flex flex-column">
+                    <a href="#">Official Notes</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">TravelEra Circle</a>
+                    <a href="#">Travel Era Frames</a>
+                </div>
+                <!-- used for border -->
+                <div class="col-12 divider my-4 mx-4"></div>
+                <!-- 2nd row  -->
+                <div class="col-12">
+                    <p class="text-light px-3 footer-heading">Travel Era | Your Nearby</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex flex-column">
+                    <a href="#">Mumbai</a>
+                    <a href="#">Delhi</a>
+                    <a href="#">Chennai</a>
+                    <a href="#">Kolkata</a>
+                    <a href="#">Bangalore</a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex flex-column">
+                    <a href="#">Srinagar</a>
+                    <a href="#">Jammu</a>
+                    <a href="#">Hyderabad</a>
+                    <a href="#">Vizag</a>
+                    <a href="#">Vapi</a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex flex-column">
+                    <a href="#">Ahmedabad</a>
+                    <a href="#">Surat</a>
+                    <a href="#">Vadodara</a>
+                    <a href="#">Rajkot</a>
+                    <a href="#">Bhuj</a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex flex-column">
+                    <a href="#">Varanai</a>
+                    <a href="#">Haridwar</a>
+                    <a href="#">Tirupati</a>
+                    <a href="#">Lucknow</a>
+                    <a href="#">Noida</a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex flex-column">
+                    <a href="#">Guwahati</a>
+                    <a href="#">Nainital</a>
+                    <a href="#">Ooty</a>
+                    <a href="#">Shimla</a>
+                    <a href="#">Dehradun</a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex flex-column">
+                    <a href="#">Puri</a>
+                    <a href="#">Bhubaneshwar</a>
+                    <a href="#">Mysore</a>
+                    <a href="#">Raipur</a>
+                    <a href="#">Jaipur</a>
+                </div>
+
+                <!-- used for border -->
+                <div class="col-12 divider my-4 mx-4"></div>
+
+                <div class="col-12">
+                    <p class="text-light text-center px-3">&copy;Travel Era | 2010 - 2023</p>
+                </div>
+
+            </div>
+        </div>
+
+`
+
+const footer = document.getElementById('footer');
+footer.innerHTML = FOOTER_HTML;
+
+
+
+
+
