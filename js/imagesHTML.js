@@ -91,9 +91,7 @@ const ACCORDION_DATA = [
 ]
 
 
-const offcanvasDiv = document.getElementById('offcanvas-div');
-const modalDiv = document.getElementById('modal-div');
-const accordionExample = document.getElementById('accordionExample');
+
 
 let tempOffCanvas = ``;
 OFFCANVAS_IMAGES.forEach(item => {
@@ -101,18 +99,13 @@ OFFCANVAS_IMAGES.forEach(item => {
                 class="canvas-img" alt="${item.alt}">`
 })
 
-offcanvasDiv.innerHTML = tempOffCanvas;
+
 
 let tempModalImgs = ``;
 MODAL_IMAGES.forEach(item => {
     tempModalImgs += `<img src="${item.imageURL}"
                             class="canvas-img" alt="${item.alt}">`
 })
-
-modalDiv.innerHTML = tempModalImgs;
-
-
-
 
 
 let tempAccordion = ``;
@@ -136,4 +129,5 @@ ACCORDION_DATA.forEach(item => {
     `
 })
 
-accordionExample.innerHTML = tempAccordion;
+export { tempOffCanvas, tempModalImgs, tempAccordion }
+

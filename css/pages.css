@@ -25,6 +25,12 @@
     border-radius: var(--theme-curve-radius);
 }
 
+@media screen and (max-width: 1000px) {
+    .contact-banner-image {
+        width: 45vw;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .contact-banner-image {
         width: 95dvw;

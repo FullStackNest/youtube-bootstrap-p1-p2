@@ -68,7 +68,7 @@ const CARD_DATA = [
 ]
 
 
-const cardsSection = document.getElementById('cards-section');
+
 let temp = ``;
 for (let i = 0; i < CARD_DATA.length; i++) {
     let item = CARD_DATA[i];
@@ -86,4 +86,5 @@ for (let i = 0; i < CARD_DATA.length; i++) {
     `
 }
 
-cardsSection.innerHTML = temp;
+let CARDS_HTML;
+export default CARDS_HTML = temp;
